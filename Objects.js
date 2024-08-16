@@ -70,19 +70,19 @@
 // console.log(student.study());
 
 
-let student = {
-    name:"Pooja",
-    age:23,
-    // sayHi: function(){
-    //     return this.name;                    // this.name == student.name
-    // },
-    sayHello:()=>{
-        return this;
-    }
-}
+// let student = {
+//     name:"Pooja",
+//     age:23,
+//     // sayHi: function(){
+//     //     return this.name;                    // this.name == student.name
+//     // },
+//     sayHello:()=>{
+//         return this;
+//     }
+// }
 
 // console.log(student.sayHi());
-console.log(student.sayHello());
+// console.log(student.sayHello());
 
 // let name = student.name
 // let age = student.age
@@ -105,4 +105,148 @@ console.log(student.sayHello());
 // two methods - increment, decrement, reset
 
 
+// let object = {
+//     key:value
+// }
 
+// let sayBye = function(){
+//     return this.name;
+// }
+
+// let person = {
+//     name:"Tanzil",
+//     age:23,
+//     // location:"Dharamshala",
+//     // sayHi:()=>{
+//     //     return this
+//     // },
+//     // sayBye:function(){
+//     //     return this.name;
+//     // },
+//     // sayMahi:sayBye
+
+// }
+
+// Object methods
+// Object.values()
+// Object.keys()
+// Object.entries() - It returns an array of a given object's own enumerable string-keyed property [key, value] pairs
+// let result = Object.entries(person);
+// console.log(result[0][0]);
+
+// console.log(person.sayMahi());
+
+// person.name = "Sapna";
+// person.age = 24;
+// person.location = "Delhi";
+
+// person.isStudent = true;
+
+// delete person.age;
+// person.sayHi();
+
+// console.log(person);
+
+
+let student = {
+    name:"Sapna",
+    age:23,
+}
+
+// Object.freeze(student)
+// delete student.age;
+// // student.age = 19;
+// // student.location = "Delhi";
+// console.log(student)
+
+const location ={
+    city:"Amrawati",
+    country:"India"
+}
+
+// let Object2 = Object.assign(student, location);
+// console.log(student);
+// console.log(Object2);
+
+// console.log(location);
+// Object.assign(source, target)
+// let student1 = Object.assign({},student)
+
+// console.log(student);
+// console.log(student1);
+
+// Spread Operator - 
+
+// const object2 = {...student,...location}
+
+// console.log(object2)
+
+// let arr = [1,2,3]
+// let arr2 = arr
+// arr2[0] = 100;
+
+// console.log(arr)
+// console.log(arr2)
+
+// let value1 = {
+//     name:"Sapna"
+// };
+// let value2 = value1;
+
+// value2.name = "Pratiksha"
+
+// console.log(value1)
+// console.log(value2)
+
+// let sapna = {
+//     age:19,
+//     city:"amrawati"
+// }
+
+// sapna.age = 20;
+
+// console.log(sapna)
+
+// Premitive , Non-primitive
+
+// Copying an object
+
+// Shallow Copy, Deep Copy
+
+// Shallow Copy - 
+// Only top level properties are copied
+// Nested Objects copied by refrence of same object
+
+let object = {
+    name:"Sapna",
+    age:24,
+    location:{
+        city:"Amrawati",
+        country:"India"
+    }
+}
+
+// let object2 = {...object};
+// object2.name = "Pratiksha";
+// object2.age = 30;
+// object2.location.country = "USA"
+
+// console.log(object)
+// console.log(object2)
+
+// Deep Copy-
+
+// stringyfy() - It converts a JavaScript object into a JSON string
+// parse()- JSON String > Object
+
+let object2 = JSON.stringify(object);
+let object3 = JSON.parse(object2)
+// console.log(object3)
+
+
+object3.name = "Seeta";
+object3.age = 18;
+object3.location.country  = "USA";
+
+console.log(object);
+console.log(object3);
