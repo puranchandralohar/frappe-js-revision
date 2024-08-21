@@ -281,19 +281,53 @@
 // }
 
 
-function createStudent(n,r){
-    return {
-       name:n,
-       roll:r,
-       sayHello:()=>{
-           console.log(`Hello ${n}`);
-       }
-    }
-}
+// function createStudent(n,r){
+//     return {
+//        name:n,
+//        roll:r,
+//        sayHello:()=>{
+//            console.log(`Hello ${n}`);
+//        }
+//     }
+// }
 
-let student1 = createStudent("Mahi", 1);
-let student2 = createStudent("Sapna", 2);
-let student3 = createStudent("Tanzil", 3);
-student1.sayHello();
-console.log(student2);
-console.log(student3);
+// let student1 = createStudent("Mahi", 1);
+// let student2 = createStudent("Sapna", 2);
+// let student3 = createStudent("Tanzil", 3);
+// student1.sayHello();
+// console.log(student2);
+// console.log(student3);
+
+// Constructor Function
+// It is a function that is used to create objects
+
+// role of new keyword
+// 1. It creates an empty object
+// 2. this = empty object
+// 3. It returns the object or this
+
+// new operator, this keyword
+
+
+// const obj = {} 
+
+// obj.name="puran";
+// obj.roll = 12;
+
+// function Emplyoee(name, salary){
+//     // console.log(this,"this")
+//     this.name = name;              
+//     this.salary = salary;
+
+//     // return {};
+// }
+
+// let mahi = new Emplyoee("Mahi", 10000);
+// let vikash = new Emplyoee("Vikash", 20000);
+
+// console.log(mahi, vikash);
+
+// Classes - 2 PM
+
+
+
