@@ -132,7 +132,7 @@
 // Ternary Operator -
 
 // let age = 10;
-console.log(age >18 ? "You can vote" : "You can't vote");
+// console.log(age >18 ? "You can vote" : "You can't vote");
 
 
 // Switch Case
@@ -215,3 +215,9 @@ console.log(age >18 ? "You can vote" : "You can't vote");
 
 // let array = ["apples", "oranges", "bananas", "grapes", "carrot"];
 // which one is vegetable
+
+// const name = "Ashna";
+
+let name = new String("Ashna");
+
+console.log(name);

@@ -329,5 +329,42 @@
 
 // Classes - 2 PM
 
+// ES6 - ECMAScript 2015
+// class Emplyoee{
+//     constructor(firstName, role){
+//         this.name = firstName;
+//         this.role = role;
+//     }
+//     sayDetails(){
+//         console.log(`Name: ${this.name}, Role: ${this.role}`);
+//     }
+// }
 
+// const Sapna = new Emplyoee("Sapna", "developer");
+// const Rahul = new Emplyoee("Rahul", "Tester");
+// const Sehwag = new Emplyoee("Sehwag", "Manager");
+
+// Sapna.sayDetails();
+// console.log(Rahul);
+// console.log(Sehwag);
+
+// Object Oriented Programming, ES6 2015
+
+class Student {
+    constructor(firstname, age, address, mail){
+        this.firstname = firstname;
+        this.age = age;
+        this.location = address;
+        this.email =mail;
+    }
+    sayHello(){
+        console.log(this.firstname);
+    }
+}
+
+let Parwati = new Student("Parwati", 20, "Amrawati", "par@gmail.com");
+
+
+Parwati.sayHello();
+console.log(Parwati);
 
