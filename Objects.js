@@ -350,21 +350,23 @@
 
 // Object Oriented Programming, ES6 2015
 
-class Student {
-    constructor(firstname, age, address, mail){
-        this.firstname = firstname;
-        this.age = age;
-        this.location = address;
-        this.email =mail;
-    }
-    sayHello(){
-        console.log(this.firstname);
-    }
-}
+// class Student {
+//     constructor(firstname, age, address, mail){
+//         this.firstname = firstname;
+//         this.age = age;
+//         this.location = address;
+//         this.email =mail;
+//     }
+//     sayHello(){
+//         console.log(this.firstname);
+//     }
+// }
 
-let Parwati = new Student("Parwati", 20, "Amrawati", "par@gmail.com");
+// let Parwati = new Student("Parwati", 20, "Amrawati", "par@gmail.com");
 
 
-Parwati.sayHello();
-console.log(Parwati);
+// Parwati.sayHello();
+// console.log(Parwati);
+
+
 

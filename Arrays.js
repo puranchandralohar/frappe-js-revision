@@ -73,3 +73,17 @@ let names = ["Tanzil", "Sapna", "Mahi", "Dhoni"];
 // Slice()
 // splice()
 
+// Nandani > Not in call
+
+// Priya Thakur > Not in call
+// Seeta > Not in call
+// Shalindra 1
+// Shivani Sahu 2
+// Swati Haldar 1
+// Tanzil 1
+// Muskan 2
+// Divya 1
+// mahi 2
+// Sweta Gupta 1
+// Manisha Joshi 1
+
