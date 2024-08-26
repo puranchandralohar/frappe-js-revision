@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="salary">Salary
+            <input type="text" id="box1" name="salary">
+        </label>
+        
+        <label for="expense">Expense
+            <input type="text" id="box2">
+        </label>
+        <button id="btn">Calulate Balance</button>
+    </div>
+    <p id="bal"></p>
+
+    <script>
+        let salary = document.getElementById('box1');
+        let expense = document.getElementById('box2');
+        let button = document.getElementById('btn');
+        let balance = document.getElementById('bal');
+
+        button.addEventListener('click', ()=>{
+            console.log("Button Clicked");
+            console.log(typeof salary.value, "salary");
+            console.log(expense.value, "expense");
+            console.log(bal,"balance");
+            console.log(salary.value - expense.value);
+            balance.innerText = `Available Balance : ${salary.value - expense.value}`;
+            
+        })
+    </script>
+
+</body>
+</html>
